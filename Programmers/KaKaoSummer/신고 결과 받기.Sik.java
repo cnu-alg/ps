@@ -24,7 +24,6 @@ class Solution {
             reportList.add(setrepo.get(i).split(" ")[1]);
         }
 
-
         for (int i = 0; i < id_list.length; i++){
             for (int j = 0; j < setrepo.size(); j++){
                 if (id_list[i].equals(reportList.get(j))){
@@ -32,7 +31,6 @@ class Solution {
                 }
             }
         }
-
 
         for (int i = 0; i < count.size(); i++){
             if (count.get(i) >= k){
@@ -52,8 +50,6 @@ class Solution {
         for (int i = 0; i < answers.size(); i++){
             answer[i] = answers.get(i);
         }
-
-
 
         return answer;
     }
