@@ -7,8 +7,8 @@ class Solution {
         Map<String,String> list = new HashMap<String,String>(); // id - nickname
         for (String str : record){
             String[] splt = str.split(" ");
-            if (!splt[0].equals("Change")) n ++ ; // check only 'Change'
-            if (!splt[0].equals("Leave")) list.put(splt[1],splt[2]); // check 'Enter'
+            if (!splt[0].equals("Change")) n ++ ; // check not 'Change'
+            if (!splt[0].equals("Leave")) list.put(splt[1],splt[2]); // check 'Enter','Change'
         }
         String[] answer = new String[n];
         int idx = 0; // answer index
