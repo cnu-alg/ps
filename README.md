@@ -10,7 +10,7 @@
 ## Rule
 
 - 매 주 `개인별 4문제`와 문제 당번이 준비한 `공통 문제`를 토요일까지 풀이해 하나의 PR에 정리
-  - 문제는 [Notion]()에 기록
+  - 문제는 [Notion](https://www.notion.so/Problems-10cebaca0e3243898b96516f340ddab0)에 기록
 - PR에 다른 팀원들이 모두 코드 리뷰를 진행하면 `Merge`
 - 파일 형식 : 번호/제목.이름.확장자 ( `소수합구하기.chs.cpp` `1621.jeonbyeongmin.js` )
 ## Tree
