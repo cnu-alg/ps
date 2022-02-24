@@ -66,7 +66,7 @@ public class Main {
 					continue;
 				}
 				for(int j = 0; j < n; j++) { // 도착 지점 
-					if(i != j && i != j) {
+					if(i != j) {
 						if(map[i][j] > map[i][k] + map[k][j]) {
 							map[i][j] = map[i][k] + map[k][j];
 						}
