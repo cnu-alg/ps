@@ -40,7 +40,7 @@ ps
 
 
 - PR에는 문제, 아이디어 도출, 해결 방법, 시간 복잡도에 대해 기술합니다.
-- 규격은 [PR양식]()에 있습니다.
+- 규격은 [PR양식](https://github.com/cnu-alg/ps/blob/main/.github/PULL_REQUEST_TEMPLATE.md)에 있습니다.
 
 ## Reviewer
 
