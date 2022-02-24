@@ -2,6 +2,7 @@
 
 풀이한 문제들의 소스코드와 해설을 공유하는 Repository 입니다.
 
+
 ## Member
 | [Hyunseok Choi](https://github.com/201702083) | [Byeongmin Jeon](https://github.com/jeonbyeongmin) | [Beomsik Moon](https://github.com/munbeomsik) |
 | ---- | ------- | ----------------- |
@@ -36,6 +37,7 @@ ps
 ```
 
 ## Pull Request 
+
 
 - PR에는 문제, 아이디어 도출, 해결 방법, 시간 복잡도에 대해 기술합니다.
 - 규격은 [PR양식]()에 있습니다.
