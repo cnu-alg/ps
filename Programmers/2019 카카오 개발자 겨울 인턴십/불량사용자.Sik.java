@@ -26,12 +26,12 @@ class Solution {
             bannedList.add(valueList);
         }
 
-        dfs(idList, 0);
+        dfs(0);
 
         return answer.size();
     }
 
-    void dfs(HashSet<String> idList, int depth) {
+    void dfs(int depth) {
         if (depth == bannedList.size()) {
             answer.add(new HashSet<>(idList));
             return;
@@ -40,7 +40,7 @@ class Solution {
         for (String userid : bannedList.get(depth)) {
             if (!idList.contains(userid)) {
                 idList.add(userid);
-                dfs(idList, depth + 1);
+                dfs(depth + 1);
                 idList.remove(userid);
             }
         }
