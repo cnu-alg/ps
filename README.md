@@ -14,6 +14,14 @@
   - 문제는 [Notion](https://www.notion.so/Problems-10cebaca0e3243898b96516f340ddab0)에 기록
 - PR에 다른 팀원들이 모두 코드 리뷰를 진행하면 `Merge`
 - 파일 형식 : 번호/제목.이름.확장자 ( `소수합구하기.chs.cpp` `1621.jeonbyeongmin.js` )
+
+## Branch
+Template  : week{week}/{name}
+
+`week02/chs`
+<br>
+`week12/Sik`
+
 ## Tree
 
 ```
