@@ -2,6 +2,7 @@
 
 풀이한 문제들의 소스코드와 해설을 공유하는 Repository 입니다.
 
+참여하려면 하단 멤버에 자신의 프로필을 작성하고 PR 날려주세요.
 
 ## Member
 | [Hyunseok Choi](https://github.com/201702083) | [Byeongmin Jeon](https://github.com/jeonbyeongmin) | [Beomsik Moon](https://github.com/munbeomsik) |
