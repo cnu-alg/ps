@@ -6,7 +6,6 @@ import java.util.Queue;
 
 class Solution {
     public int[] solution(String[] gems) {
-        String[] gems = {"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"};
         Queue<String> queue = new LinkedList<>();
         HashSet<String> gem_set = new HashSet<>();
         HashMap<String, Integer> gem_map = new HashMap<>();
@@ -40,8 +39,8 @@ class Solution {
         }
         result[0] = start_final + 1;
         result[1] = start_final + end;
-        System.out.println(result[0] +" "+ result[1]);
 
+        return result;
     }
 }
 
