@@ -26,7 +26,7 @@ public class App {
 
         for (int i = 1; i <= n; i++) {
             rank[i] = 1;
-            parent[i] = -1;
+            parent[i] = i;
         }
 
         int max = 1;
@@ -50,7 +50,7 @@ public class App {
     }
 
     public static int find(int x) {
-        if (parent[x] != -1) {
+        if (parent[x] != x) {
             return parent[x] = find(parent[x]);
         }
         return x;
@@ -60,17 +60,15 @@ public class App {
         a = find(a);
         b = find(b);
 
-        int temp = 0;
         if (rank[a] < rank[b]) {
-            temp = rank[a];
-            rank[a] = rank[b];
-            rank[b] = temp;
+            parent[a] = b;
+            rank[b] += rank[a];
+        } else {
+            parent[b] = a;
+            rank[a] += rank[b];
         }
 
-        parent[b] = a;
-        rank[a] += rank[b];
-
-        return rank[a];
+        return Math.max(rank[a], rank[b]);
     }
 
 }
