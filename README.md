@@ -5,9 +5,10 @@
 참여하려면 하단 멤버에 자신의 프로필을 작성하고 PR 날려주세요.
 
 ## Member
-| [Byeongmin Jeon](https://github.com/jeonbyeongmin) | [Beomsik Moon](https://github.com/munbeomsik) |
+| [Hyunseok Choi](https://github.com/201702083) | [Byeongmin Jeon](https://github.com/jeonbyeongmin) | [Beomsik Moon](https://github.com/munbeomsik) |
 | ---- | ------- | ----------------- |
-| <img src="https://avatars.githubusercontent.com/jeonbyeongmin" width="100" /> |  <img src="https://avatars.githubusercontent.com/munbeomsik" width="100" />| 
+| <img src="https://avatars.githubusercontent.com/201702083" width="100" />  | <img src="https://avatars.githubusercontent.com/jeonbyeongmin" width="100" /> |  <img src="https://avatars.githubusercontent.com/munbeomsik" width="100" />| 
+
 
 ## Rule
 
